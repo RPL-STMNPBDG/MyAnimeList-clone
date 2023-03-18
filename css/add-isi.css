@@ -1,0 +1,125 @@
+.form-add-post{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.genre{
+    resize: none;
+    border: none;
+    padding: 5px 20px 5px;
+    font-family: "Century Gothic";
+    height: 35px;
+    color: rgba(255, 255, 255, 0.658);
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+}
+
+.form-add-post .genre{
+    resize: none;
+    border: none;
+    padding: 5px 20px 5px;
+    font-family: "Century Gothic";
+    height: 35px;
+    color: rgba(255, 255, 255, 0.658);
+    background-color: rgba(0, 0, 0, 0.404)!important;
+    border-radius: 10px!important;
+}
+
+.genre option{
+    color: rgba(255, 255, 255, 0.658);
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+}
+
+.avatar-mainlego{
+    display: flex;
+    margin-top: 2%;
+}
+
+.avatar-mainlego input{
+    margin-left: 14px;
+}
+
+.avatar-mainlego .masukkanfoto{
+    padding-left: -10%;
+}
+
+.form-add-post .masukkanfoto{
+    color: rgba(255, 255, 255, 0.733);
+    font-family: "Century Gothic";
+    font-weight: 700;
+}
+
+.form-add-post .judul-artikel{
+    resize: none;
+    height: 40px;
+
+    border: none;
+    padding: 5px 20px 5px;
+    font-family: "Century Gothic";
+    color: rgba(255, 255, 255, 0.856);
+    background-color: rgba(0, 0, 0, 0.404);
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.form-add-post .isi-artikel{
+    resize: none;
+    border: none;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: -10px;
+    background-color: rgba(0, 0, 0, 0.404);
+    overflow: scroll;
+}
+
+.text-area{
+    font-family: "Century Gothic";
+    resize: none;
+    border: none;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.404);
+    overflow: scroll;
+}
+
+.avatar-mainlego{
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.submit-addpost{
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    background: linear-gradient(25deg, #7fa0f8, rgb(104, 135, 175));
+    border-radius: 20px;
+    width: fit-content;
+    border: none;
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 40%;
+    font-family: "Century Gothic";
+    font-size: 13pt;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.submit-addpost:hover, .submit-addpost:focus, .submit-addpost:active{
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+

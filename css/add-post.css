@@ -1,0 +1,309 @@
+.admin-artikel{
+    width: 100%;
+    height: max-content;
+    display: flex;
+}
+
+::-webkit-scrollbar {
+    width: 1%;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0px 0 6px rgba(0, 0, 0, 0);    
+    background: rgba(255, 255, 255, 0);
+    background: linear-gradient(30deg, #4259a300, #bbc2df00);    
+}
+ 
+::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0);
+}
+
+.blank1{
+    width: 10%;
+    height: auto;
+    float: left;
+}
+
+.admin-post{
+
+    display: flex;
+    width: 80%;
+    height: max-content;
+    float: center;
+    margin-top: 8%;
+    margin-bottom: 7%;
+    background: rgb(56,50,87);
+background: linear-gradient(248deg, rgba(56,50,87,0.6839110644257703) 36%, rgba(61,5,61,0.6839110644257703) 66%);
+    border-radius: 50px 0 50px 0;
+    
+}
+
+.dashboard{
+    
+    float: left;
+    width: 35%;
+    padding: 5%;
+}
+
+.admin-post-list li a h5{
+    color: rgba(255, 255, 255, 0.815);
+    margin-left: 5%;
+    font-size: 12pt!important;
+    width: 100%;
+    font-family: "Century Gothic";
+    font-weight: 700;
+}
+
+.admin-post-list li{
+    margin-top: 1%;
+    padding-bottom: 3%;
+}
+
+.admin-post-list li a{
+    display: flex;
+    width: 150%;
+}
+
+.add-post{
+    background: rgba(255, 255, 255, 0.479)!important;
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.623) 0%, rgba(0,0,0,0) 100%)!important;
+    color: rgba(255, 228, 196, 0);
+    width: 100%!important;
+    border-radius: 0 50px 0 0;
+}
+
+.manage-post{
+    background: rgba(255, 255, 255, 0.479)!important;
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.623) 0%, rgba(0,0,0,0) 100%)!important;
+    color: rgba(255, 228, 196, 0);
+    width: 100%!important;
+}
+
+.add-user{
+    background: rgba(255, 255, 255, 0.479)!important;
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.623) 0%, rgba(0,0,0,0) 100%)!important;
+    color: rgba(255, 228, 196, 0);
+    width: 100%!important;
+}
+
+.manage-user{
+    background: rgba(255, 255, 255, 0.479)!important;
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.623) 0%, rgba(0,0,0,0) 100%)!important;
+    color: rgba(255, 228, 196, 0);
+    width: 100%!important;
+}
+
+.add-category{
+    background: rgba(255, 255, 255, 0.479)!important;
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.623) 0%, rgba(0,0,0,0) 100%)!important;
+    color: rgba(255, 228, 196, 0);
+    width: 100%!important;
+}
+
+.manage-category{
+    background: rgba(255, 255, 255, 0.479)!important;
+    background: linear-gradient(79deg, rgba(255, 255, 255, 0.623) 0%, rgba(0,0,0,0) 100%)!important;
+    color: rgba(255, 228, 196, 0);
+    width: 100%!important;
+    border-radius: 0 0px 0 50px;
+}
+
+.add-post h5{
+    width: 1%;
+    background-color: #5376cf00!important;
+    color: rgba(255, 228, 196, 0)!important;
+}
+
+.admin-post-list li a:hover{
+    display: flex;
+    width: 91%;
+    margin-left: -5%;
+    border-left: 5px solid #5377cf;
+    background-color: rgba(255, 255, 255, 0.281);
+    height: 120%;
+}
+
+a:hover{
+    color: #69137a;
+    font-weight: 700;
+}
+
+.admin-post-list li{
+    display: flex!important;
+    width: 120%;
+    padding: 5%;
+}
+
+.admin-isi{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    float: right;
+    width: 70%;
+    height: 500px;
+    padding-right: 8%;
+    overflow: scroll;
+}
+
+.blank2{
+    width: 10%;
+    height: auto;
+    float: right;
+}
+
+table .edit2{
+    text-align: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.admin-post-list{
+    border-radius: 0px 50px 0px 50px;
+    background: rgb(0,0,0);
+background: linear-gradient(240deg, rgba(0,0,0,0.5914740896358543) 0%, rgba(200,26,193,0.8295693277310925) 48%, rgba(0,0,0,0.5578606442577031) 100%);
+    box-shadow: 8px 9px 31px -13px rgba(0,0,0,1);
+    -webkit-box-shadow: 8px 9px 31px -13px rgba(0,0,0,1);
+    -moz-box-shadow: 8px 9px 31px -13px rgba(0,0,0,1);
+}
+
+.button-edit{
+    display: inline-block;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+    background-color: #5377cf;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    color: white;
+}
+
+.button-edit:hover{
+    display: inline-block;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    color: #5377cf!important;
+}
+
+.button-delete{
+    display: inline-block;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+    background-color: #ff0000;
+    font-weight: 600;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    color: white;
+}
+
+.button-delete:hover{
+    display: inline-block;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+    background-color: #ffffff;
+    font-weight: 900;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    color: rgb(255, 0, 0);
+    border: 2px solid #ff0000;
+}
+
+.btn.sm{
+    padding: 0.3rem 0.7rem;
+    font-size: 0.8rem;
+}
+
+table thead{
+    color: white;
+    font-weight: 800;
+    font-family: "Century Gothic";
+}
+
+.admin-isi table{
+    margin-top: 7%;
+}
+
+table tbody{
+    color: #c68aee;
+    font-family: "Century Gothic";
+    font-weight: 600;
+    font-size: 12pt;
+    padding-top: 5%;
+    padding-top: 2%;
+}
+
+.btn.danger{
+    background-color: red;
+}
+
+.admin-isi .title{
+    color: white;
+    font-family: "Century Gothic";
+    font-weight: 700;
+    font-size: 22pt!important;
+}
+
+.admin-isi table{
+    width: 100%;
+    text-align: left;
+}
+
+.admin-isi table th{
+    padding: 0.6rem;
+    color: white;
+}
+
+.admin-isi table thead{
+    background: rgb(11,11,11);
+background: linear-gradient(248deg, rgba(11,11,11,0) 0%, rgba(148,62,185,0.938813025210084) 51%, rgba(41,14,42,0.37298669467787116) 100%);
+}
+
+.admin-isi table td{
+    padding: 0.8rem;
+    border-bottom: 1px solid #b968da;
+}
+
+.admin-isi table tr:hover td{
+    background-color: rgba(255, 255, 255, 0.055);
+    color: rgb(231, 231, 231);
+    cursor: default;
+
+}
+
+.admin-isi .title-word {
+    animation: color-animation 4s linear infinite;
+    text-shadow: 5px 3px 5px rgba(0,0,0,0.6);  }
+  
+.admin-isi .title-word-1 {
+    --color-1: #d4aeff;
+    --color-2: #c2d2ff;
+    --color-3: #ffffffd5;
+  }
+  
+.admin-isi .title-word-2 {
+    --color-1: #a9ceff;
+    --color-2: #cea9ff;
+    --color-3: #a9ceff;
+  }
+
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
